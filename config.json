@@ -12,10 +12,14 @@
     "options": [
       "--user-data-dir=/home/mysuer/workana-listing/tmp",
       "--window-size=1920,1080",
-      "--headless",
-      " --no-sandbox",
+      "--start-maximized",
+      "--disable-extensions",
+      "--disable-gpu",
+      "--no-sandbox",
       "--incognito",
-      "--disable-blink-features=AutomationControlled"
+      "--disable-blink-features=AutomationControlled",
+      "--disable-dev-shm-usage",
+      "--ignore-certificate-errors"
     ]
   }
 }
