@@ -1,0 +1,21 @@
+{
+  "username": "myworkanauser@gmail.com",
+  "password": "mypasword",
+  "searches": {
+    "my_search1": "https://www.workana.com/jobs?category=it-programming&language=en%2Cpt&publication=3d&subcategory=e-commerce%2Cwordpress-1",
+    "my_search2": "https://www.workana.com/jobs?category=it-programming&language=en%2Cpt%2Ces&publication=1d&subcategory=web-development"
+
+  },
+  "scrapper": {
+    "wait": 10,
+    "executable_path": "/home/mysuer/workana-listing/chromedriver",
+    "options": [
+      "--user-data-dir=/home/mysuer/workana-listing/tmp",
+      "--window-size=1920,1080",
+      "--headless",
+      " --no-sandbox",
+      "--incognito",
+      "--disable-blink-features=AutomationControlled"
+    ]
+  }
+}
