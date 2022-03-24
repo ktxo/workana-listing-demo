@@ -50,7 +50,7 @@ cd workana-listing
    ```
    cd /home/mysuer/workana-listing
    workana_listing --help
-   usage: workana_listing [-h] -c CONFIG_JSON [-S] [-s SEARCHES [SEARCHES ...]] [-l LOG] [-L {I,D,W,E}] [-v]
+   usage: workana_listing [-h] -c CONFIG_JSON [-S] [-s SEARCHES [SEARCHES ...]] [-j] [-l LOG] [-L {I,D,W,E}] [-v]
    
    List Workana projects
    
@@ -62,6 +62,7 @@ cd workana-listing
      -s SEARCHES [SEARCHES ...], --search SEARCHES [SEARCHES ...]
                            List of search defined in config.json, 'all' to use all
                            Example: my_search1 my_search2
+     -j, --json            Create json file with results
      -l LOG, --log LOG     Logging configuration file
      -L {I,D,W,E}, --log_level {I,D,W,E}
                            Log level. Valid options: I(info), D(debug), W(warning), E(error)
